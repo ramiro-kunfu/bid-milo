@@ -1,0 +1,32 @@
+{
+  "id": "d38d0984-238b-4c0a-b556-54fbd8716199",
+  "prevId": "30b56ac7-ee92-415b-b7e2-54d26dd50748",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.bb_bids": {
+      "name": "bb_bids",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
